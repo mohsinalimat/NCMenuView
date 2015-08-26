@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description      = "This is a menu control."
   s.homepage         = "https://github.com/LINAICAI/NCMenuView.git"
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license          = { :type => 'MIT' }
   s.author           = { "linaicai" => "linaicai2012@gmail.com" }
   s.source           = { :git => "https://github.com/LINAICAI/NCMenuView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/linaicai'
