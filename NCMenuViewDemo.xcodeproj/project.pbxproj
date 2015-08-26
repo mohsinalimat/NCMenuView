@@ -15,6 +15,7 @@
 		FA6EE1F71B8E025B0044573E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6EE1F51B8E025B0044573E /* LaunchScreen.xib */; };
 		FA6EE2031B8E025B0044573E /* NCMenuViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6EE2021B8E025B0044573E /* NCMenuViewDemoTests.m */; };
 		FA6EE20F1B8E028B0044573E /* NCMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6EE20E1B8E028B0044573E /* NCMenuView.m */; };
+		FA6EE2111B8E0CD80044573E /* NCMenuView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FA6EE2101B8E0CD80044573E /* NCMenuView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		FA6EE2021B8E025B0044573E /* NCMenuViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCMenuViewDemoTests.m; sourceTree = "<group>"; };
 		FA6EE20D1B8E028B0044573E /* NCMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMenuView.h; sourceTree = "<group>"; };
 		FA6EE20E1B8E028B0044573E /* NCMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMenuView.m; sourceTree = "<group>"; };
+		FA6EE2101B8E0CD80044573E /* NCMenuView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NCMenuView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		FA6EE1DA1B8E025B0044573E = {
 			isa = PBXGroup;
 			children = (
+				FA6EE2101B8E0CD80044573E /* NCMenuView.podspec */,
 				FA6EE20C1B8E026A0044573E /* NCMenuView */,
 				FA6EE1E51B8E025B0044573E /* NCMenuViewDemo */,
 				FA6EE1FF1B8E025B0044573E /* NCMenuViewDemoTests */,
@@ -215,6 +218,7 @@
 				FA6EE1F21B8E025B0044573E /* Main.storyboard in Resources */,
 				FA6EE1F71B8E025B0044573E /* LaunchScreen.xib in Resources */,
 				FA6EE1F41B8E025B0044573E /* Images.xcassets in Resources */,
+				FA6EE2111B8E0CD80044573E /* NCMenuView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +434,7 @@
 				FA6EE2081B8E025B0044573E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA6EE2091B8E025B0044573E /* Build configuration list for PBXNativeTarget "NCMenuViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +443,7 @@
 				FA6EE20B1B8E025B0044573E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
