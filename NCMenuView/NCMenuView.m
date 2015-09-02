@@ -59,6 +59,27 @@
     }
     
 }
+-(void)setCurrentPageAtIndex:(NSInteger)index{
+    
+    self.currentIndex=index;
+    for (UIButton *btn in self.buttons) {
+        if (btn.tag==index) {
+            [btn setSelected:YES];
+            [UIView animateWithDuration:0.35f
+                                  delay:0.0f
+                                options:UIViewAnimationOptionCurveEaseOut
+                             animations:^
+             {
+                 CGPoint point=self.lineView.center;
+                 point.x=btn.center.x;
+                 [self.lineView setCenter:point];
+             }  completion:nil];
+        }
+        else{
+            [btn setSelected:NO];
+        }
+    }
+}
 -(void)buttonClick:(id)sender{
     UIButton *button=(UIButton *)sender;
     

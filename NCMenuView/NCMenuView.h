@@ -16,6 +16,7 @@ typedef void(^ClickBlock)(NSInteger selectIndex);
 @property(nonatomic,strong)ClickBlock clickBlock;
 @property(nonatomic,strong)SwitchLineView *lineView;
 - (id)initWithFrame:(CGRect)frame Titles:(NSArray *)title Complete:(ClickBlock)complete;
+-(void)setCurrentPageAtIndex:(NSInteger)index;
 @end
 
 @interface SwitchLineView : UIView
