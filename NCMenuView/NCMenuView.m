@@ -10,6 +10,7 @@
 #define line_h 37
 #define arrow_h 15
 @implementation NCMenuView
+
 - (id)initWithFrame:(CGRect)frame Titles:(NSArray *)title Complete:(ClickBlock)complete
 {
     self = [super initWithFrame:frame];

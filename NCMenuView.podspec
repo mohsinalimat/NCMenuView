@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NCMenuView"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "一个滑动菜单控件."
   s.description      = "This is a menu control."
   s.homepage         = "https://github.com/LINAICAI/NCMenuView.git"
